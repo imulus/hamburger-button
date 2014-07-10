@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5451838819647E0A005B583F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451838719647E0A005B583F /* AppDelegate.swift */; };
-		5451838A19647E0A005B583F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5451838919647E0A005B583F /* ViewController.swift */; };
+		02D41F83196E6087004DC607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D41F82196E6087004DC607 /* AppDelegate.m */; };
+		02D41F86196E615C004DC607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D41F85196E615C004DC607 /* ViewController.m */; };
+		02D41F89196E618F004DC607 /* HamburgerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D41F88196E618F004DC607 /* HamburgerButton.m */; };
+		02D41F8F196EDD0B004DC607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D41F8E196EDD0B004DC607 /* main.m */; };
 		5451838F19647E0A005B583F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5451838E19647E0A005B583F /* Images.xcassets */; };
-		545183A919647E3F005B583F /* HamburgerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545183A819647E3F005B583F /* HamburgerButton.swift */; };
 		545183AB19647E9E005B583F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545183AA19647E9E005B583F /* QuartzCore.framework */; };
 		545183AD196480E9005B583F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545183AC196480E9005B583F /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02D41F81196E6087004DC607 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02D41F82196E6087004DC607 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02D41F84196E615C004DC607 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02D41F85196E615C004DC607 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02D41F87196E618F004DC607 /* HamburgerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamburgerButton.h; sourceTree = "<group>"; };
+		02D41F88196E618F004DC607 /* HamburgerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HamburgerButton.m; sourceTree = "<group>"; };
+		02D41F8D196EDCDD004DC607 /* HamburgerButton.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HamburgerButton.pch; sourceTree = "<group>"; };
+		02D41F8E196EDD0B004DC607 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5451838219647E0A005B583F /* Hamburger Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hamburger Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5451838619647E0A005B583F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5451838719647E0A005B583F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5451838919647E0A005B583F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5451838E19647E0A005B583F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		545183A819647E3F005B583F /* HamburgerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerButton.swift; sourceTree = "<group>"; };
 		545183AA19647E9E005B583F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		545183AC196480E9005B583F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -59,11 +65,14 @@
 		5451838419647E0A005B583F /* Hamburger Button */ = {
 			isa = PBXGroup;
 			children = (
-				5451838719647E0A005B583F /* AppDelegate.swift */,
-				5451838919647E0A005B583F /* ViewController.swift */,
-				545183A819647E3F005B583F /* HamburgerButton.swift */,
 				5451838E19647E0A005B583F /* Images.xcassets */,
 				5451838519647E0A005B583F /* Supporting Files */,
+				02D41F81196E6087004DC607 /* AppDelegate.h */,
+				02D41F82196E6087004DC607 /* AppDelegate.m */,
+				02D41F84196E615C004DC607 /* ViewController.h */,
+				02D41F85196E615C004DC607 /* ViewController.m */,
+				02D41F87196E618F004DC607 /* HamburgerButton.h */,
+				02D41F88196E618F004DC607 /* HamburgerButton.m */,
 			);
 			path = "Hamburger Button";
 			sourceTree = "<group>";
@@ -72,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				5451838619647E0A005B583F /* Info.plist */,
+				02D41F8D196EDCDD004DC607 /* HamburgerButton.pch */,
+				02D41F8E196EDD0B004DC607 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,9 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5451838A19647E0A005B583F /* ViewController.swift in Sources */,
-				545183A919647E3F005B583F /* HamburgerButton.swift in Sources */,
-				5451838819647E0A005B583F /* AppDelegate.swift in Sources */,
+				02D41F83196E6087004DC607 /* AppDelegate.m in Sources */,
+				02D41F86196E615C004DC607 /* ViewController.m in Sources */,
+				02D41F8F196EDD0B004DC607 /* main.m in Sources */,
+				02D41F89196E618F004DC607 /* HamburgerButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +197,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -226,6 +239,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -244,7 +258,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hamburger Button/HamburgerButton.pch";
 				INFOPLIST_FILE = "Hamburger Button/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Hamburger Button";
 			};
@@ -255,7 +272,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hamburger Button/HamburgerButton.pch";
 				INFOPLIST_FILE = "Hamburger Button/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "Hamburger Button";
 			};
